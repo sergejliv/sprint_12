@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: serjliv/hello-golang
+          images: serjliv/sprint_12
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
