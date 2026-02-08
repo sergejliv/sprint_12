@@ -26,7 +26,7 @@ type ParcelService struct {
 	store ParcelStore
 }
 
-func NewParcelService(store ParcelStore) ParcelService {
+func NewParcelService(store ParcelStore) ParcelService { // qwerty
 	return ParcelService{store: store}
 }
 
